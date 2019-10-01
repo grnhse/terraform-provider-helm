@@ -24,6 +24,6 @@ gox \
   -arch="${XC_ARCH}" \
   -osarch="${XC_EXCLUDE_OSARCH}" \
   -ldflags "${LD_FLAGS}" \
-  -output "$TARGET_DIR/{{.OS}}_{{.Arch}}/terraform-provider-${PROVIDER_NAME}_v0.0.0_x4" \
+  -output "$TARGET_DIR/{{.OS}}_{{.Arch}}/terraform-provider-${PROVIDER_NAME}_${VERSION}" \
   -verbose \
   -rebuild \
